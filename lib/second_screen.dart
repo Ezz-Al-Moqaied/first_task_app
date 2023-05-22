@@ -60,8 +60,8 @@ class _SecondScreenState extends State<SecondScreen> {
                               offset: const Offset(10, 10)),
                         ],
                         image: const DecorationImage(
-                          image: NetworkImage(
-                              "https://media.vanityfair.com/photos/6319eab06009e759e6638e28/master/w_2560%2Cc_limit/1421315651"),
+                          image: AssetImage(
+                              "assets/images/image.jpg"),
                           fit: BoxFit.cover,
                         )),
                   ),
@@ -186,9 +186,9 @@ class _SecondScreenState extends State<SecondScreen> {
                 height: 15,
               ),
               Container(
-                padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(6),
                 decoration: BoxDecoration(
-                    color: Colors.grey.withOpacity(0.4),
+                    color: Colors.grey.withOpacity(0.2),
                     borderRadius: const BorderRadius.all(Radius.circular(15))),
                 child: Row(
                   children: [

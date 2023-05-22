@@ -88,8 +88,8 @@ class _FirstScreenState extends State<FirstScreen> {
                           offset: const Offset(10, 10)),
                     ],
                     image: const DecorationImage(
-                      image: NetworkImage(
-                          "https://media.vanityfair.com/photos/6319eab06009e759e6638e28/master/w_2560%2Cc_limit/1421315651"),
+                      image: AssetImage(
+                          "assets/images/image.jpg"),
                       fit: BoxFit.cover,
                     )),
               ),
