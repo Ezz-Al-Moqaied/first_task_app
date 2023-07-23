@@ -162,7 +162,7 @@ class _SecondScreenState extends State<SecondScreen> {
                   ),
                   const Spacer(),
                   Container(
-                    padding: const EdgeInsets.all(12),
+                    padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
                         color: Colors.white,
                         boxShadow: [
